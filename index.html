@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,14 +10,14 @@
     <meta name="keywords" content="европейский стиль, европейский интерьер, европейский текстиль, 
     европейская мебель, европейский премиум, евроремонт">
     <link rel="stylesheet" href="./styles/main.css">
-</head>
-<body>
+  </head>
+  <body class="body">
     <main class="main">
 
       <div class="page-section intro__bg">
         <div class="content">
           <header class="page-header">
-            <a class="logo" href="">
+            <a class="logo logo__link" href="">
               <img src="./images/logo-img.png" alt="" class="logo__img">
               <span class="logo__text">SCANDI</span>
             </a>
@@ -172,7 +172,7 @@
       </div>
 
 
-      <div class="page-section page-section_dark-bg mb-none">
+      <div class="page-section page-section_semidark-bg mb-none">
         <div class="content">
           <section class="team section">
             <h2 class="page-title page-title_centered page-title_upcase">Команда</h2>
@@ -216,7 +216,7 @@
       </div>
 
 
-      <div class="page-section page-section_dark-bg">
+      <div class="page-section page-section_semidark-bg">
         <div class="content">
           <section class="how-we-work section">
             <h2 class="page-title page-title_centered page-title_upcase">Как мы работаем</h2>
@@ -267,70 +267,114 @@
       </div>
 
 
-      <section class="page-section reviews">
+      <div class="page-section">
         <div class="content">
-          <h2 class="page-title page-title_upcase">Отзывы</h2>
-          <div class="slider">
-            <button class="slider__button slider__button_to-left"></button> <!--картинку стрелки вставим в стилях-->
-            <div class="slider__viewport">
-              <div class="slider__frames-row">
-                <div class="slider__frame">
-                  <div class="review-card">
-                    <div class="review-card__text-zone">
-                      <p class="review-card__paragraph">
-                        «Восторг! Спасибо, за комфортную жизнь. Очень рада, что выбрала вашу студию для украшения своего дома.
-                      </p>
-                      <p class="review-card__paragraph"></p>
-                        Работа шла быстро, было очень приятно общаться и взаимодествовать
-                        с сотрудниками. Не ожидала, что это будет так легко!
-                      </p>
-                      <p class="review-card__paragraph"></p>
-                        Буду советовать и своим друзьям к вам обращаться!»
-                      </p>
-                      <cite class="review-card__author">
-                        АННА БЕЛОВСКАЯ
-                      </cite>
-                    </div>
-                    <div class="review-card__img-zone">
-                      <img src="./images/review-img-1.jpg" alt="Интерьер комнаты." class="review-card__img">
-                      <img src="./images/review-img-2.jpg" alt="Интерьер кухни." class="review-card__img">
+          <section class="reviews section">
+            <h2 class="page-title page-title_centered page-title_upcase">Отзывы</h2>
+            <div class="slider">
+              <button class="slider__button slider__button_to-left">
+                <svg width="33" height="16" viewBox="0 0 33 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M0.292892 8.70711C-0.0976295 8.31658 -0.0976295 7.68342 0.292892 7.29289L6.65685 0.928932C7.04738 0.538408 7.68054 0.538408 8.07107 0.928932C8.46159 1.31946 8.46159 1.95262 8.07107 2.34315L2.41421 8L8.07107 13.6569C8.46159 14.0474 8.46159 14.6805 8.07107 15.0711C7.68054 15.4616 7.04738 15.4616 6.65685 15.0711L0.292892 8.70711ZM33 9H1V7H33V9Z" fill="#F5F2ED"/>
+                </svg>
+              </button> <!--картинку стрелки вставим в стилях-->
+              <div class="slider__viewport">
+                <div class="slider__frames-row">
+                  <div class="slider__frame">
+                    <div class="review-card">
+                      <div class="review-card__text-zone">
+                        <p class="review-card__paragraph">
+                          «Восторг! Спасибо, за комфортную жизнь. Очень рада, что выбрала вашу студию для украшения своего дома.
+                        </p>
+                        <p class="review-card__paragraph">
+                          Работа шла быстро, было очень приятно общаться и взаимодествовать
+                          с сотрудниками. Не ожидала, что это будет так легко!
+                        </p>
+                        <p class="review-card__paragraph">
+                          Буду советовать и своим друзьям к вам обращаться!»
+                        </p>
+                        <cite class="review-card__author">
+                          АННА БЕЛОВСКАЯ
+                        </cite>
+                      </div>
+                      <div class="review-card__img-zone">
+                        <img src="./images/review-img-1.jpg" alt="Интерьер комнаты." class="review-card__img">
+                        <img src="./images/review-img-2.jpg" alt="Интерьер кухни." class="review-card__img">
+                      </div>
                     </div>
                   </div>
+
+                  <div class="slider__frame">
+                    <div class="review-card">
+                      <div class="review-card__text-zone">
+                        <p class="review-card__paragraph">
+                          «Восторг! Спасибо, за комфортную жизнь. Очень рада, что выбрала вашу студию для украшения своего дома.
+                        </p>
+                        <cite class="review-card__author">
+                          АННА БЕЛОВСКАЯ
+                        </cite>
+                      </div>
+                      <div class="review-card__img-zone">
+                        <img src="./images/review-img-1.jpg" alt="Интерьер комнаты." class="review-card__img">
+                        <img src="./images/review-img-2.jpg" alt="Интерьер кухни." class="review-card__img">
+                      </div>
+                    </div>
+                  </div>
+
                 </div>
               </div>
+              <button class="slider__button slider__button-to-right">
+                <svg width="33" height="16" viewBox="0 0 33 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M32.7071 8.70711C33.0976 8.31658 33.0976 7.68342 32.7071 7.29289L26.3431 0.928932C25.9526 0.538408 25.3195 0.538408 24.9289 0.928932C24.5384 1.31946 24.5384 1.95262 24.9289 2.34315L30.5858 8L24.9289 13.6569C24.5384 14.0474 24.5384 14.6805 24.9289 15.0711C25.3195 15.4616 25.9526 15.4616 26.3431 15.0711L32.7071 8.70711ZM0 9H32V7H0V9Z" fill="#F5F2ED"/>
+                </svg>
+              </button>
             </div>
-            <button class="slider__button slider__button-to-right"></button>
-          </div>
+          </section>
         </div>
-      </section>
+      </div>
 
 
-      <section class="page-section request">
+      <div class="page-section page-section_dark-bg">
         <div class="content">
-          <form action="" class="request-form">
-            <h2 class="page-title">Оставить заявку</h2>
-            <p>
-              Оставьте свои контакты. Менеджер перезвонит
-              в удобное вам время и ответит на все вопросы.
-            </p>
-            <input type="text" class="request-form__input" placeholder="Ваше имя">
-            <input type="tel" class="request-form__input" placeholder="Введите телефон">
-            <button class="request-form__sbmt-btn">Оставить заявку</button>
-          </form>
-          <img src="./images/map-img.jpg" alt="Расположение компании на карте- улица Большая Конюшенная, дом 19." class="">
+          <section class="request">
+            <form action="" class="request-form">
+              <h2 class="page-title page-title_upcase page-title_light">Оставить заявку</h2>
+              <p class="page-subtitle">
+                Оставьте свои контакты. Менеджер перезвонит
+                в удобное вам время и ответит на все вопросы.
+              </p>
+              <input type="text" class="request-form__input" placeholder="Ваше имя">
+              <input type="tel" class="request-form__input" placeholder="Введите телефон">
+              <!-- <button class="request-form__sbmt-btn">Оставить заявку</button> -->
+              <button class="request-form__sbmt-btn button-link">Оставить заявку</button>
+            </form>
+            <div class="request__map-container">
+              <img src="./images/map-img.jpg" alt="Расположение компании на карте- улица Большая Конюшенная, дом 19." 
+              class="request__map">
+            </div>
+          </section>
         </div>
-      </section>
+      </div>
 
     </main>
 
 
     <footer class="page-footer">
       <div class="content">
-        <address class="address">+7 (981) 857-46-24</address>
-        <address class="address">г. Санкт-петербург, ул. Большая Конюшенная, 19</address>
-        <address class="address">ИП Королёва А.А.</address>
+        <div class="footer">
+          <address class="footer__address">+7 (981) 857-46-24</address>
+          <address class="footer__address">г. Санкт-петербург, ул. Большая Конюшенная, 19</address>
+          <address class="footer__address js-right">ИП Королёва А.А.</address>
+        </div>
       </div>
     </footer>
-    
-</body>
+  
+    <script>
+      let sliderFrame = document.querySelectorAll('.slider__frame');
+      let sliderViewport = document.querySelector('.slider__viewport');
+      let sliderViewportWidth = getComputedStyle(sliderViewport).width;
+      sliderFrame.forEach((el) => {
+        el.style.width = sliderViewportWidth;
+      });
+    </script>
+  </body>
 </html>
